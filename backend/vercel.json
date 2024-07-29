@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "a7-bickhamw-backend",
+    "builds": [
+        {
+        "src": "achievements-controller.mjs",
+        "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+        "src": "/api/(.*)",
+        "dest": "/achievements-controller.mjs"
+        }
+    ]
+}
