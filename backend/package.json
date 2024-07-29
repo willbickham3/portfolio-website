@@ -1,0 +1,19 @@
+{
+  "name": "a7-bickhamw-backend",
+  "version": "2023",
+  "description": "This app will help user's track their progress in different aspects of life.",
+  "main": "achievements-controller.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon achievements-controller.mjs"
+  },
+  "author": "William Bickham",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "rest": "^2.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
