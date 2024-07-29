@@ -1,39 +1,12 @@
 ## Table of Contents
 
-1. [Project Structure](#project-structure)
-2. [Frontend](#frontend)
+1. [Frontend](#frontend)
    - [Installation](#installation)
    - [Usage](#usage)
-3. [Backend](#backend)
+2. [Backend](#backend)
    - [Installation](#installation-1)
    - [Usage](#usage-1)
-4. [Environment Variables](#environment-variables)
-5. [Contributing](#contributing)
-6. [License](#license)
-
-## Project Structure
-
-a8-bickhamw-portfolio/
-├── backend/
-│ ├── .env
-│ ├── achievements-controller.mjs
-│ ├── achievements-model.mjs
-│ ├── package.json
-│ ├── package-lock.json
-│ ├── test-requests.http
-├── frontend/
-│ ├── .DS_Store
-│ ├── .env
-│ ├── .gitignore
-│ ├── bickhamw-screenshot.png
-│ ├── package.json
-│ ├── package-lock.json
-│ ├── public/
-│ ├── README.md
-│ ├── src/
-
-perl
-Copy code
+3. [Environment Variables](#environment-variables)
 
 ## Frontend
 
